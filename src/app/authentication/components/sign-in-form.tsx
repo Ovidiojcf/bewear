@@ -44,6 +44,7 @@ const SignInForm = () => {
   });
 
   async function onSubmit(values: FormValues) {
+    console.log("Form values:", values);
     await authClient.signIn.email({
       email: values.email,
       password: values.password,
@@ -70,7 +71,7 @@ const SignInForm = () => {
   }
 
   return (
-    <Card>
+    <Card className="w-full">
       <CardHeader>
         <CardTitle>Entrar</CardTitle>
         <CardDescription>
