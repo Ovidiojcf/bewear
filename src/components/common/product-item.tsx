@@ -23,7 +23,7 @@ const ProductItem = ({ product, textContainerClassName }: ProductItemProps) => {
         sizes="100vh"
         width={0}
         height={0}
-        className="h-full w-full rounded-3xl"
+        className="h-auto w-full rounded-3xl"
       />
       <div
         className={cn(
