@@ -25,7 +25,6 @@ export const Header = () => {
       <Link href={"/"}>
         <Image src="/logo.svg" alt="BEWEAR" width={100} height={26.14} />
       </Link>
-      <Button>Bootcamp</Button>
       <div className="flex items-center">
         <Sheet>
           <SheetTrigger asChild>
