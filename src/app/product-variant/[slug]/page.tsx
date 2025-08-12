@@ -1,5 +1,4 @@
 import { eq } from "drizzle-orm";
-import { Quando } from "next/font/google";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 
